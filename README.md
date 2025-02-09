@@ -6,6 +6,10 @@ This project leverages machine learning techniques to predict key health metrics
 
 The project includes a **Streamlit** web interface where users can input their details, and the model predicts their health metrics. Various machine learning models, including **RandomForestRegressor**, **DecisionTreeRegressor**, and **K-Nearest Neighbors (KNN)**, are trained to make accurate predictions.
 
+Here’s a screenshot of the web application:
+
+![Web Application Screenshot](./Screenshot%202025-02-09%20232104.png)
+
 ## Key Features
 - **User Input:**
   - Gender
@@ -38,8 +42,9 @@ The project includes a **Streamlit** web interface where users can input their d
   - R-squared: 0.9519
 
 - **K-Nearest Neighbors (KNN)**:
-  - Training Accuracy: 100%
-  - Testing Accuracy: 81.43%
+  - Mean Squared Error: 5.14
+  - Mean Absolute Error: 0.383
+  - R-squared: 0.814
 
 ## Streamlit Web Interface
 The project includes a **Streamlit**-based web interface, allowing users to input their health data and receive predictions. The web interface is easy to use, and the output consists of predicted **Blood Pressure**, **Stress Level**, and **Heart Rate**.
