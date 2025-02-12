@@ -1,4 +1,4 @@
-# Health Metrics Prediction using Deep Learning
+# Health Metrics Prediction using Machine Learning
 
 ## Project Overview
 
